@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@300&display=swap');
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+	font-size: 16px;
+	margin: 0;
+	color: #000;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+        60deg,
+        hsl(0deg 0% 0%) 0%,
+        hsl(260deg 22% 10%) 19%,
+        hsl(256deg 27% 16%) 33%,
+        hsl(255deg 29% 24%) 43%,
+        hsl(255deg 31% 31%) 51%,
+        hsl(254deg 32% 39%) 57%,
+        hsl(254deg 33% 47%) 61%,
+        hsl(253deg 42% 56%) 67%,
+        hsl(253deg 62% 65%) 77%,
+        hsl(253deg 96% 74%) 100%
+      );
+}
+
+.voice {
+  position: relative;
+  width: 600px;
+  text-align: center;
+    margin: 0 auto;
+
+    margin-top: 100px;
+    border-radius: 20px;
+  background-color: transparent;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+h1{
+	color: #fff;
+	font-size: 50px;
+}
+#convert_text{
+  width: 95%;
+  height: 200px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+button{
+    font-family: 'Dancing Script', cursive;
+	padding: 12px 20px;
+  background: #0ea4da;
+  border: 0;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input{
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+.context {
+    width: 100%;
+    position: relative;
+    top:50vh;
+    
+}
+
+.context h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
